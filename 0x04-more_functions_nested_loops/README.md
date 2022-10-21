@@ -1,1 +1,1 @@
-more functions nested loop
+2-mul.c
