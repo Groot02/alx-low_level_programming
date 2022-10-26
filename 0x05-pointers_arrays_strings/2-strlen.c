@@ -3,8 +3,8 @@
 /**
  * _strlen - returning length of string
  * @s: string
- * Return: 0
-*/
+ * Return: length
+ */
 
 int _strlen(char *s)
 {
@@ -15,4 +15,6 @@ int _strlen(char *s)
 		len++;
 		s++;
 	}
+
+	return (len);
 }
