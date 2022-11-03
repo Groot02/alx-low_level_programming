@@ -9,7 +9,7 @@
 int factorial(int n)
 {
 	if (n == 0) /*Base condition*/
-	return (0);
+	return (1);
 	else if (n < 0) /*base condition*/
 	return (-1);
 	else
